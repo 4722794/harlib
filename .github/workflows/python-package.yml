@@ -2,9 +2,9 @@ name: Publish Python distributions to PyPI and TestPyPI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ guru ]
   pull_request:
-    branches: [ master ]
+    branches: [ guru ]
 
 jobs:
   build-n-publish:
